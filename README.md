@@ -24,6 +24,9 @@ Instructions
     astronomy conventions (magnitudes, filters, light curves), read
     help/astro_conventions.md before Lab 01.
 
+    Every due date (labs, quizzes, midterm, final, capstone) is in ASSIGNMENTS.md,
+    the live assignment tracker. Check it weekly; tentative dates are marked.
+
     Labs are in the labs/ directory - your dataset is labs/XY/data/<your netid>.csv.
     Only your own dataset will be graded against your truth values, so make sure
     you use yours.
