@@ -1,0 +1,39 @@
+# Hubble, E. 1929, PNAS 15, 168-173, "A relation between distance and radial velocity among extra-galactic nebulae"
+# Table 1 (p. 169): "Nebulae whose distances have been estimated from stars involved or from mean luminosities in a cluster"
+# bibcode: 1929PNAS...15..168H   doi: 10.1073/pnas.15.3.168
+# Primary source fetched 2026-09-19: PNAS PDF via Wayback Machine snapshot of https://www.pnas.org/doi/pdf/10.1073/pnas.15.3.168
+#   (pnas.org, pmc.ncbi.nlm.nih.gov and the ADS scan blocked direct fetch); transcribed from the page-169 scan image, OCR text used as a cross-check.
+# Second independent transcription for cross-check: https://apod.nasa.gov/debate/1996/hub_1929.html (NASA APOD "Great Debate" HTML transcription).
+#   All 24 rows agree in every column.
+# Units (Hubble's, p. 169 footnotes): m_s = photographic magnitude of brightest stars involved (blank = ".." in original, not measured);
+#   r_Mpc = distance in units of 10^6 parsecs (first two are Shapley's values); v_kms = measured radial velocity, km/s (sign as printed);
+#   m_t = Holetschek's visual magnitude corrected by Hopmann (first three objects estimated by Hubble); M_t = total visual absolute magnitude from m_t and r.
+# Notes: M_t is printed with a minus sign only on the first row (-16.0) and the mean (-15.5); all values are negative and the sign is made explicit here.
+#   Object names: "S. Mag." / "L. Mag." = Small / Large Magellanic Cloud; numbers are NGC designations ("N. G. C." in the original).
+#   Hubble's fit (p. 170): rK + X cos a cos d + Y sin a cos d + Z sin d = v, solved two ways: 24 objects individually, K = +465 +/- 50 km/s per 10^6 pc;
+#   9 groups, K = +513 +/- 60 km/s per 10^6 pc. He then adopts the round number K = +500 (p. 170-171).
+object,m_s,r_Mpc,v_kms,m_t,M_t
+SMC,,0.032,170,1.5,-16.0
+LMC,,0.034,290,0.5,-17.2
+NGC6822,,0.214,-130,9.0,-12.7
+NGC598,,0.263,-70,7.0,-15.1
+NGC221,,0.275,-185,8.8,-13.4
+NGC224,,0.275,-220,5.0,-17.2
+NGC5457,17.0,0.45,200,9.9,-13.3
+NGC4736,17.3,0.5,290,8.4,-15.1
+NGC5194,17.3,0.5,270,7.4,-16.1
+NGC4449,17.8,0.63,200,9.5,-14.5
+NGC4214,18.3,0.8,300,11.3,-13.2
+NGC3031,18.5,0.9,-30,8.3,-16.4
+NGC3627,18.5,0.9,650,9.1,-15.7
+NGC4826,18.5,0.9,150,9.0,-15.7
+NGC5236,18.5,0.9,500,10.4,-14.4
+NGC1068,18.7,1.0,920,9.1,-15.9
+NGC5055,19.0,1.1,450,9.6,-15.6
+NGC7331,19.0,1.1,500,10.4,-14.8
+NGC4258,19.5,1.4,500,8.7,-17.0
+NGC4151,20.0,1.7,960,12.0,-14.2
+NGC4382,,2.0,500,10.0,-16.5
+NGC4472,,2.0,850,8.8,-17.7
+NGC4486,,2.0,800,9.7,-16.8
+NGC4649,,2.0,1090,9.5,-17.0

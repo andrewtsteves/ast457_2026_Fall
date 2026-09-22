@@ -1,0 +1,28 @@
+# J2000 sky positions of the 24 nebulae in Hubble 1929 Table 1, resolved 2026-09-20 with astropy SkyCoord.from_name (CDS Sesame / SIMBAD).
+# Used to rebuild Hubble's equation of condition r K + X cos(alpha) cos(delta) + Y sin(alpha) cos(delta) + Z sin(delta) = v (PNAS 15, 168, p. 170).
+# Hubble used 1900-equinox coordinates; precession to J2000 moves positions by ~1 degree, a small change to the three solar-motion columns.
+object,ra_deg,dec_deg
+SMC,13.1583,-72.8003
+LMC,80.8942,-69.7561
+NGC6822,296.2342,-14.7976
+NGC598,23.4621,30.6602
+NGC221,10.6743,40.8652
+NGC224,10.6847,41.2688
+NGC5457,210.8024,54.3488
+NGC4736,192.7211,41.1203
+NGC5194,202.4696,47.1953
+NGC4449,187.0463,44.0936
+NGC4214,183.9132,36.3269
+NGC3031,148.8882,69.0653
+NGC3627,170.0626,12.9915
+NGC4826,194.1821,21.6827
+NGC5236,204.2538,-29.8658
+NGC1068,40.6696,-0.0133
+NGC5055,198.9553,42.0294
+NGC7331,339.2669,34.4158
+NGC4258,184.7401,47.3037
+NGC4151,182.6357,39.4059
+NGC4382,186.3502,18.1911
+NGC4472,187.4449,8.0004
+NGC4486,187.7059,12.3911
+NGC4649,190.9165,11.5527
