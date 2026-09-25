@@ -1,0 +1,125 @@
+Combining the Strengths of Rubin, Euclid, and Roman for Time-domain Science and Cosmology
+Charlotte Ward, Penn State
+
+LSST
+- galaxies overlap with objects, making photometry inaccurate at 5% level
+Euclid
+- O + 3 IR bands
+- No atmospheric impact on PSF lets us resolve pt sources - use with Rubin
+Roman
+- IR imaging/spectroscopy
+
+Time domain
+- Nuclear and off nuclear transients 
+- Why are TDEs green valley / post merger?
+- Why do SNe perfer different H-poor or H-rich environments
+
+DDPs - euclid rubin derived data products
+- Source detection + morphology models is the easiest 
+- Euclid might detect multiple sources where Rubin sees one
+
+DDP3 - joint detection & px modeling
+- Px scale, wcs, psf, filter response - image calibration priors
+- Create a model image to generate chi^2 with actually detected image
+- Forward modelling approach
+    - Performed with DESI, WISE imaging surveys
+- high res images
+    - many sources are no longer fit perfect sersic 
+    profiles
+    - can no longer parameterize morphologies by few 
+    parameters: every pixel is a parameter
+    - machine learning priors for stable fitting
+        - training on single wavelengths, since 
+        galaxies can look different on different 
+        wavelengths
+    - GPU acceleration required for efficiency
+    - must be able to model single exposures across 
+    1000s epoch images
+
+Scarlet2
+- jax programming language (?) allows it to be GPU accelerated
+- Assume galaxy morphology priors: galaxies have positive flux, and are decreasing in flux from a center (like doesnt have spirals)
+    - priors guide models to remove unrealistic details 
+    in models - are shapes realistic & physical?
+    - how much did a model px rely on prior vs data? we 
+    want this to be balanced
+- lightcurves do not use reference images 
+- detailed posteriors on SEDs, positions, morphologies
+- Gives forced photometry for transients
+- models can overfit galaxies without enough priors
+
+Pipeline for DDP3
+- Resampling images and measure power spectrum of correlated noise, don't model sources associated with noise
+- Source detection
+- Fit galaxy SEDs, morphologies, astrometric shift
+- boom
+
+Grism spectroscopy
+- can be better deblended if modeled with imaging
+- often spectra are discontinuous due to emlines, introduces high uncertainty
+
+
+Gravitationally lensed supernovae
+- time delay lets us measure transients better
+- Ultimately help constrain H0 
+
+Time delay recovery with just Rubin & not with Roman/space based imaging is possible
+
+Looking for off nuclear AGN/TDEs
+- For lower mass galaxies, MBHs are more offset
+- Centroid of galaxies might be offset as AGN moves around the galaxy.
+- We mostly expect to find mergers, instead of actual agn wanderers
+
+TDEs
+- ZTF.
+- 10^6 mass black hole off nuclear TDE + 10^8 mass bh at galactic center. minor merger
+- TDEs help detection of intermediate mass BHs
+- Delayed radio jets associated with TDEs
+
+CLAGN
+- sudden AGN flaring of previously quiescent AGN
+- Disk tearing - AGN exerts torque over disk, disk tears & precesses. We see an CLAGN
+- Low eddingon agn will have complex disk shpaes in spectra, without disk tearing
+- 
+
+ASKAP radio survey
+- CLAGN radio jets? Radio flaring AGN are not heavily associated with CLAGN.
+
+
+QUESTIONS
+- Mentioned in the lecture something about fitting this model to IFU data. How would this be different? Doesn't IFU data have like, 1000s of wavelengths? Wouldn't this be massively computationally intensive to fit using magnitudes-larger images?
+- For grism spectroscopy, i wonder how they fit spectra if they not only have to 1. fit a spectrum to lines and 2. resolve the lines in the first place, with all the background contamination 3. distinguish between 2 overlapping spectra
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

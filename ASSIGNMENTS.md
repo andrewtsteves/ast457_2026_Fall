@@ -5,7 +5,9 @@ lab notebook header are authoritative when they disagree with this file.** Labs 
 Thursday and due the following Wednesday by Noon, as a pull request from your fork into
 `submissions/<netid>/`. You may drop one lab and one quiz.
 
-Last updated: 2026-09-20.
+Last updated: 2026-09-24.
+
+**Before class Thu Sep 24 (one time):** `conda activate astr457`, then `conda install -c conda-forge "ipykernel=6.31"`, then restart Jupyter. See `INSTALL.txt`.
 
 ## Labs
 
@@ -13,8 +15,9 @@ Last updated: 2026-09-20.
 |---|---|---|---|---|
 | 01 | Robust line fitting and outliers | Thu Sep 3 | Wed Sep 9 | closed |
 | 02 | Estimators, bias, Cramér-Rao | Thu Sep 10 | Wed Sep 16 | closed |
-| 03 | MLE on transit data | Thu Sep 17 | Wed Sep 23 | **open** |
-| 04 | Regression: OLS, GLS, ODR vs a generative model | Thu Sep 24 | Wed Sep 30 | posted early; not yet assigned. +5 extra credit for Ward colloquium notes, due Noon Tue Sep 29 |
+| 03 | MLE on transit data | Thu Sep 17 | Wed Sep 23 | closed |
+| 04 | Regression: OLS, GLS, ODR vs a generative model | Thu Sep 24 | Wed Sep 30 | **open** (assigned Thu Sep 24). +5 extra credit for Ward colloquium notes, due Noon Tue Sep 29 |
+| review | Regression review test (individual, in class; counts as one lab) | Tue Sep 29 | Wed Sep 30 | in class Sep 29; `lecture/05/review_test_sep29.ipynb` |
 | 05 | MCMC: a binary-star radial-velocity fit | Thu Oct 1 | Wed Oct 7 | |
 | — | no lab the week of Oct 8 (midterm) | | | |
 | 07 | Time series and Gaussian-process regression | Thu Oct 22 | Wed Oct 28 (tentative) | |
@@ -32,7 +35,7 @@ Short, written, closed-everything, at the start of class, roughly every other we
 | Quiz | Date | Notes |
 |---|---|---|
 | 1 | Tue Sep 8 | done; TA-proctored (GN traveling). +5 extra credit for El-Badry colloquium notes, due Noon Tue Sep 15 |
-| 2 | Tue Sep 22 | first 15 minutes of class; Days 5-8 (estimators, Cramér-Rao, MLE, χ², model comparison) |
+| 2 | Tue Sep 22 | done; Days 5-8 (estimators, Cramér-Rao, MLE, χ², model comparison) |
 | 3 | Tue Oct 20 (tentative) | after the midterm defenses |
 | 4 | Tue Nov 3 | TA-proctored (GN on Zoom) |
 | 5 | Thu Nov 12 (tentative) | |

@@ -544,6 +544,9 @@ the verified URL is the tarball and the filename inside it is named below.
 - **License:** arXiv non-exclusive distribution licence; journal copyright ApJ/AAS. No open licence. Basis: fair use: single cited figure in a non-commercial course.
 - **Shows:** as σ_x/τ grows from 0.5 to 2 (R_X = 0.2 → 0.8), the OLS slope median slides from ~0.4 to ~0.1 against a true β = 0.5 (attenuation / regression dilution), FITEXY overshoots, BCES widens, and the Gaussian structural MLE (the `linmix_err` model) stays centred on the truth.
 
+
+## kelly2007_attenuation_bias_3rows.png
+- **Derived from** `kelly2007_attenuation_bias.png` (Kelly 2007, ApJ 665, 1489, arXiv:0705.2774, Fig. 4; same source, credit and licence basis as that entry). Added 2026-09-23 for legibility on the Day 10 slide: the BCES row removed (rows spliced with PIL), the y-axis label strip cut because the splice broke it. OLS, FITEXY and MLE rows and all three sigma_x/tau columns unchanged. The slide caption says the BCES row is removed.
 ## reines2015_mbh_mstar.png
 - **Title:** Figure 8, "Black hole mass versus total host galaxy stellar mass. All stellar masses are estimated using color dependent mass-to-light ratios presented in Zibetti et al. (2009). Our sample of 244 broad-line AGN for which we estimate virial BH masses from equation 1 are shown as red points. The 10 broad-line AGN and composite dwarf galaxies from Reines et al. (2013) are shown as pink points (including NGC 4395). The dwarf galaxy RGG 118 hosting a ~50,000 M_sun BH is the dark green point, and Pox 52 is the light green point. Fifteen reverberation-mapped AGN with BH masses taken from Bentz & Katz (2015) are shown as purple points. Dynamical BH mass[es ...]" (caption abridged; the arXiv source caption opens with "Left:" but `f8.eps` is a single panel). Authors' `f8.eps` rendered with `gs -r360 -dEPSCrop`, trimmed with PIL (1823×1696 PNG). Added 2026-09-19.
 - **Source page:** https://arxiv.org/abs/1508.06274
@@ -584,3 +587,46 @@ the verified URL is the tarball and the filename inside it is named below.
 - **Credit:** NASA, ESA, the Hubble Heritage Team (STScI/AURA), and R. Gendler (for the Hubble Heritage Team). Acknowledgment: J. GaBany
 - **License:** CC BY 4.0 (ESA/Hubble copyright page); full credit line on the slide as required.
 - **Use:** Day 9, the WLS anchor-galaxy slide (166 R11 Cepheids). Informs: this is the galaxy whose maser distance anchors the ladder.
+
+## lab_z_summary.png
+- **Source:** course-generated, 2026-09-23, by `instructor/solutions/lab_z_summary.py` (instructor-side; reads the private truth manifests).
+- **Content:** aggregate histograms of z = (reported − truth)/reported σ for Labs 01-03 (n = 17, 17, 8). No NetIDs, no labelled points.
+- **License:** course material.
+- **Use:** Day 10, "Lab error bars vs. the truth" slide. Informs: the class's own calibration, and the z that Lab 04 is graded on.
+
+## pont2006_fig2_white_red_noise.png
+- **Source:** Pont, Zucker & Queloz 2006, MNRAS 373, 231 (arXiv:astro-ph/0608597), Fig. 2 ("Lightcurves with white noise only (top), red noise only (middle) and white and red noise (bottom)"); file via ar5iv (assets/fig3.png, which is the paper's Fig. 2 by TeX order), fetched 2026-09-23.
+- **License:** arXiv distribution licence; single cited figure, non-commercial course use.
+- **Use:** Day 10, "Assumption 3: independent points". Informs: what red noise looks like next to white noise.
+
+## kelly2007_fig3_noise_levels.png
+- **Source:** Kelly 2007, ApJ 665, 1489 (arXiv:0705.2774), Fig. 3; ar5iv assets/f3.png, rotated 270 degrees to upright (the PS was rotated in the TeX), fetched 2026-09-23.
+- **License:** arXiv distribution licence; single cited figure, non-commercial course use.
+- **Use:** Day 10, "Assumption 2: exact x". Informs: the same sample observed with growing x error.
+
+## henize2-10_hst_opo2202a.jpg
+- **Source:** ESA/Hubble opo2202a, https://esahubble.org/images/opo2202a/ (downsized to 1400 px), fetched 2026-09-23.
+- **Credit:** NASA, ESA, Zachary Schutte (XGI), Amy Reines (XGI), Alyssa Pagan (STScI).
+- **License:** CC BY 4.0 per ESA/Hubble standard licence [INFERRED from the site's copyright page, not printed on the image page]; credit on the slide.
+- **Use:** Day 10, "A relation with errors on both axes". Informs: a dwarf galaxy with a central black hole.
+
+## ward2022_fig2_ztf_lightcurve.png
+- **Source:** Ward et al. 2022, ApJ (arXiv:2110.13098), Fig. 2 (one panel: 189758_model_binned10_ztfonly.png from the arXiv e-print), fetched 2026-09-23.
+- **License:** arXiv distribution licence; single cited figure, non-commercial course use.
+- **Use:** Day 10, demo setup slide. Informs: how variability selects dwarf AGN.
+
+## dekany2020_ztf_p48_cutaway.jpeg
+- **Source:** Dekany et al. 2020, PASP 132, 038001 (arXiv:2008.04923), Fig. 1; ar5iv assets/fig/ZTF_P48_cutaway.jpeg, fetched 2026-09-23.
+- **License:** arXiv distribution licence; single cited figure, non-commercial course use.
+- **Use:** Day 10, Lab 04 slide. Informs: the ZTF instrument behind the lab's sample.
+
+## wise_pia15809.jpg
+- **Source:** NASA Photojournal PIA15809 (downsized to 1400 px), fetched 2026-09-23.
+- **Credit:** NASA/JPL-Caltech.
+- **License:** NASA media, public domain with credit.
+- **Use:** Day 10, Lab 04 slide. Informs: the WISE survey behind the lab's sample.
+
+## charbonneau2000_fig1_hd209458b.png
+- **Source:** Charbonneau et al. 2000, ApJ 529, L45 (arXiv:astro-ph/9911436), Fig. 1; ar5iv assets/fig1.png, fetched 2026-09-23.
+- **License:** arXiv distribution licence; single cited figure, non-commercial course use.
+- **Use:** Day 10, Iben Lecture slide (replaces the speaker portrait). Informs: the transit he co-discovered, also the Day 8 / red-noise planet.

@@ -18,6 +18,14 @@ If you have an existing `conda` or `conda` installation, skip to Step 3.
 
 This will prompt you to install several other packages. Hit yes.
 
+Then pin the Jupyter kernel to version 6 (added Sep 24; do this even if you
+installed earlier):
+> conda install -c conda-forge "ipykernel=6.31"
+
+ipykernel 7 can break matplotlib labels that use $...$ math ("ParseException:
+Expected end of text") when sliders or interactive plots are on the page, and
+can make plots silently not appear. Restart Jupyter afterwards.
+
 `corner` lives on the conda-forge channel, not the default one, which is
 why it needs the `-c conda-forge` flag above. If you'd rather not type that
 flag every time for future packages, see help/condarc-example.txt for a
