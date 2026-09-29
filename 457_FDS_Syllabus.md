@@ -337,9 +337,9 @@ substitute or held on Zoom; watch your email for the arrangements each week.
 - **Sep 29, Oct 1** *(travel; GN via Zoom Sep 29; guest lecture Padma Venkatraman
   Oct 1)* — Bayes in practice, sampling and Markov Chain Monte Carlo methods
   (ICVG Ch. 5)
-  **Regression review test in class Sep 29** (individual, counts as one lab;
+  **Regression review test in class Sep 29** (your own notebook, talking allowed; counts as one lab;
   pull request due Wed Sep 30 by Noon).
-- **Oct 6, 8** — Building models, effective sampling techniques, estimating
+- **Oct 6, 8** — Building models, model comparison and the Bayes factor, effective sampling techniques, estimating
   parameters & uncertainties, posterior predictive checks, other MCMC
   wizardry (ICVG Ch. 8). **Midterm posted Oct 8.**
 - **Oct 13, 15** *(travel)* — Visualization as verification: plots that catch broken
