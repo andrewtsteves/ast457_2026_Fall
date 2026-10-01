@@ -26,7 +26,7 @@ Last updated: 2026-09-24.
 | 10 | Machine-learning classification and imbalance | Thu Nov 12 | Wed Nov 18 (tentative) | |
 | 11 | Neural networks to foundation-model embeddings | Thu Nov 19 | **Wed Dec 2** (fall-break exception) | |
 
-Lab defenses rotate; at least two per student over the semester. You will be told in class.
+Lab defenses: one per student over the semester, drawn at random. You will be told in class.
 
 ## Quizzes
 
