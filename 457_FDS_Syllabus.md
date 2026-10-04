@@ -140,8 +140,8 @@ office hours.
 |---|---|
 | Labs (roughly weekly, AI-in-the-loop, documented) | 25% |
 | In-class quizzes (short, written, AI-free) | 15% |
-| Midterm (take-home 12% + oral defense 8%) | 20% |
-| Final (take-home 12% + oral defense 8%) | 20% |
+| Midterm (take-home, graded like a lab) | 20% |
+| Final (take-home, graded like a lab) | 20% |
 | Capstone (notebook, video & lightning talk) | 20% |
 
 **Labs** (roughly ten, equally weighted). Each lab hands you a dataset generated specifically for you: your data, your
@@ -160,7 +160,7 @@ worked Jupyter notebook; a recorded 10-minute presentation uploaded to YouTube
 by Noon on Mon Dec 7; and a 4-minute in-class lightning talk in the final week
 (ten talks per session, Dec 3 and Dec 8). The video carries the depth; the
 lightning talk is your elevator pitch, and questions on your capstone are fair
-game at your final defense. Topics are chosen with me by mid-October. Graduate students taking the 4 credit hour
+game in the lightning-talk Q&A. Topics are chosen with me by mid-October. Graduate students taking the 4 credit hour
 option additionally deliver a written survey of how their technique is used in
 the current astrophysics and statistics literature, record a 15-minute video
 (rather than 10) covering that survey, and are graded to a correspondingly
@@ -182,7 +182,7 @@ syllabus.
 
 ### Assignment and exam policies
 
-Labs and the take-home components of the midterm and final are open book, open
+Labs and the take-home midterm and final are open book, open
 AI (documented, per the ground rules above). You may work in groups, and may
 discuss the assignments and ways to tackle them, but you must write/code your
 solution independently and run your analysis on your own dataset. Your data
@@ -199,12 +199,11 @@ Wednesday.
 Quizzes (roughly six, equally weighted) are brief written checks (10–15 minutes) at the start of class, closed-everything, roughly every other week, covering the reasoning behind what we've done: reading a corner plot, or saying why an estimator misbehaves. No computation, no AI, no notes: these certify what you carry in your own head.
 
 Oral defenses are short (5–10 minute) scheduled conversations with me or the
-TA about work you submitted. Everyone defends their midterm, final, and capstone; each of you also defends one lab during the semester, drawn at random. The questions are about your
+TA about work you submitted. Each of you defends one lab or the midterm during the semester, drawn at random; capstone questions come in the lightning-talk Q&A. The questions are about your
 choices and your checks. They are a rehearsal for every seminar, group meeting, and thesis defense you will ever attend.
 
-The midterm and final take-home components will be posted online, and will be
-due by Noon six days later, with defenses in the following week (for the
-final, during finals week, Dec 15–17). If you have a
+The midterm and final will be posted online, and will be
+due by Noon six days later (for the final, Dec 15, during finals week). If you have a
 conflict with the exam dates, please contact me as soon as possible. Make up
 examinations will have different questions. Exams include all material covered
 prior, and will require a more substantial time commitment than the weekly
@@ -303,15 +302,13 @@ that, tell me early.
   Quiz 1:** attend (there will be a signup sheet) or watch the YouTube
   recording afterward, and turn in at least a page of notes including two
   questions you had, by Noon Tue Sep. 15
-- Oct. 8, 2026: Midterm take-home posted (due Oct. 14 by Noon; defenses
-  Oct. 19–23)
+- Oct. 8, 2026: Midterm take-home posted (due Oct. 14 by Noon)
 - Oct. 20, 2026: Capstone topics due (chosen with me)
 - Nov. 24 & 26, 2026: Fall break, no class
 - Dec. 3 & 8, 2026: Capstone lightning talks in class
 - Dec. 7, 2026: Capstone notebooks & videos due by Noon
 - Dec. 9, 2026: Last day of instruction
-- Dec. 9, 2026: Final take-home posted (due Dec. 15 by Noon; defenses
-  Dec. 15–17)
+- Dec. 9, 2026: Final take-home posted (due Dec. 15 by Noon)
 
 ## Class schedule, Fall 2026 (subject to revision)
 
@@ -343,8 +340,7 @@ substitute or held on Zoom; watch your email for the arrangements each week.
   parameters & uncertainties, posterior predictive checks, other MCMC
   wizardry (ICVG Ch. 8). **Midterm posted Oct 8.**
 - **Oct 13, 15** *(travel)* — Visualization as verification: plots that catch broken
-  models before referees do (VdP Ch. 4). **Midterm due Oct 14 by Noon;
-  defenses Oct 19–23.**
+  models before referees do (VdP Ch. 4). **Midterm due Oct 14 by Noon.**
 - **Oct 20, 22** — Time-series analysis (ICVG Ch. 10, FB Ch. 11), Gaussian
   processes (ICVG Ch. 8.10, readings from Rasmussen & Williams)
 - **Oct 27, 29** — Probabilistic Graphical Models (PGMs) & hierarchical Bayes
@@ -365,5 +361,5 @@ substitute or held on Zoom; watch your email for the arrangements each week.
   **First ten lightning talks Thu Dec 3; capstone notebooks & videos due Mon
   Dec 7 by Noon.**
 - **Dec 8** — Remaining ten lightning talks; course wrap. **Final posted Dec 9.**
-- **Dec 15** — Final take-home due by Noon; defenses Dec 15–17 (finals
+- **Dec 15** — Final take-home due by Noon (finals
   period; grades are due to the Registrar Dec 22).

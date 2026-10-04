@@ -17,8 +17,8 @@ Last updated: 2026-09-24.
 | 02 | Estimators, bias, Cramér-Rao | Thu Sep 10 | Wed Sep 16 | closed |
 | 03 | MLE on transit data | Thu Sep 17 | Wed Sep 23 | closed |
 | 04 | Regression: OLS, GLS, ODR vs a generative model | Thu Sep 24 | Wed Sep 30 | **open** (assigned Thu Sep 24). +5 extra credit for Ward colloquium notes, due Noon Tue Sep 29 |
-| review | Regression review test (in class, your own notebook, talking allowed; counts as one lab) | Tue Sep 29 | Wed Sep 30 | in class Sep 29; `lecture/06/review_test_sep29.ipynb` |
-| 05 | MCMC: a binary-star radial-velocity fit | Thu Oct 1 | Wed Oct 7 | |
+| review | Regression review test (in class, your own notebook, talking allowed; counts as one lab) | Tue Sep 29 | Wed Sep 30 | in class Sep 29; `lecture/06/review_test_sep29.ipynb`. **Truth:** $\alpha = 1.25$, $\beta = 6.40$, $\sigma_{\rm int} = 0.45$ dex; reference model drawing `lecture/images/review_sep29_pgm.png` |
+| 05 | MCMC: a binary-star radial-velocity fit | Sat Oct 3 | **Fri Oct 9** | extended: it reached GitHub on Oct 3, not Oct 1 |
 | — | no lab the week of Oct 8 (midterm) | | | |
 | 07 | Time series and Gaussian-process regression | Thu Oct 22 | Wed Oct 28 (tentative) | |
 | 08 | Hierarchical Bayes and probabilistic graphical models | Thu Oct 29 | Wed Nov 4 (tentative) | |
@@ -26,7 +26,7 @@ Last updated: 2026-09-24.
 | 10 | Machine-learning classification and imbalance | Thu Nov 12 | Wed Nov 18 (tentative) | |
 | 11 | Neural networks to foundation-model embeddings | Thu Nov 19 | **Wed Dec 2** (fall-break exception) | |
 
-Lab defenses: one per student over the semester, drawn at random. You will be told in class.
+Lab defenses: one per student over the semester (a lab or the midterm), drawn at random. No separate midterm or final defenses. You will be told in class.
 
 ## Quizzes
 
@@ -36,7 +36,7 @@ Short, written, closed-everything, at the start of class, roughly every other we
 |---|---|---|
 | 1 | Tue Sep 8 | done; TA-proctored (GN traveling). +5 extra credit for El-Badry colloquium notes, due Noon Tue Sep 15 |
 | 2 | Tue Sep 22 | done; Days 5-8 (estimators, Cramér-Rao, MLE, χ², model comparison) |
-| 3 | Tue Oct 20 (tentative) | after the midterm defenses; Bayes and MCMC (Days 12-14) |
+| 3 | Tue Oct 20 (tentative) | after the midterm; Bayes and MCMC (Days 12-14) |
 | 4 | Tue Nov 3 | TA-proctored (GN on Zoom) |
 | 5 | Thu Nov 12 (tentative) | |
 | 6 | Tue Dec 1 (tentative) | |
@@ -47,14 +47,12 @@ Short, written, closed-everything, at the start of class, roughly every other we
 |---|---|
 | Midterm take-home posted | Thu Oct 8 |
 | Midterm take-home due | Wed Oct 14, Noon |
-| Midterm defenses (viva) | Oct 19-23 |
 | Capstone topic chosen with GN | by Tue Oct 20 |
 | Capstone notebook and recorded video due | Mon Dec 7, Noon |
 | Capstone lightning talks, first ten | Thu Dec 3, in class |
 | Capstone lightning talks, remaining ten | Tue Dec 8, in class |
 | Final take-home posted | Wed Dec 9 |
 | Final take-home due | Tue Dec 15, Noon |
-| Final defenses (viva) | Dec 15-17 |
 
 ## Other dates
 
