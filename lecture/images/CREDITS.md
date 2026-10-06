@@ -657,3 +657,35 @@ the verified URL is the tarball and the filename inside it is named below.
 - **Source:** drawn for this course with matplotlib (instructor script), 2026-09-29. Own work.
 - **License:** same as the course repository.
 - **Use:** posted with the Sep 29 review test's truth after the Wed Sep 30 deadline: the reference PGM for the five-parameter generative fit (Q3/Q4).
+
+## speagle2020_fig2_top_bottom_crop.png
+- **Title:** Figure 2, "An example highlighting the behavior of a Static Nested Sampling run in dynesty": top (live points) and bottom (evidence) panels only, cropped and stacked, 1100 px wide, from the author's `static.png`
+- **Source page:** https://arxiv.org/abs/1904.02180
+- **File downloaded:** https://arxiv.org/e-print/1904.02180 (author's LaTeX source tarball), 2026-10-06
+- **Credit:** Speagle, J. S. (2020), "dynesty: a dynamic nested sampling package for estimating Bayesian posteriors and evidences," MNRAS, 493, 3132 (arXiv:1904.02180), Fig. 2
+- **License:** arXiv non-exclusive distribution license; single cited figure in a non-commercial university course - fair use per course policy
+- **Shows:** one nested-sampling run against the prior volume X: live points, the rising likelihood threshold, where the posterior mass sits, and the evidence converging with its error band (Day 13)
+
+## trotta2008_fig3_bayes_factor_plane.png
+- **Title:** Figure 3, "Illustration of Bayesian model comparison for two nested models, where the more complex model has one extra parameter" (rendered from the author's `Eplan_v3.ps` at 300 dpi, downscaled to 900 px)
+- **Source page:** https://arxiv.org/abs/0803.4089
+- **File downloaded:** https://arxiv.org/e-print/0803.4089, 2026-10-06
+- **Credit:** Trotta, R. (2008), "Bayes in the sky: Bayesian inference and model selection in cosmology," Contemporary Physics, 49, 71 (arXiv:0803.4089), Fig. 3
+- **License:** arXiv non-exclusive distribution license; single cited figure, fair use per course policy
+- **Shows:** the outcome of a nested comparison as a function of information content (prior width over posterior width) and detection significance, with |ln B01| = 1, 2.5, 5 contours (Day 13, the n_s example)
+
+## poon2025_fig6_obliquity_bayes_factor.png
+- **Title:** Figure 6, posterior on the concentration parameter kappa with its prior dashed (left) and Bayes factor BF(0,5) for subsets of four super-Jupiter systems (right) (downscaled to 1800 px wide)
+- **Source page:** https://arxiv.org/abs/2511.04091
+- **File downloaded:** https://arxiv.org/e-print/2511.04091, 2026-10-06
+- **Credit:** Poon, M., Bryan, M. L., Rein, H., Dong, J., Speagle, J. S., & Pham, D. (2025), "Early evidence for isotropic planetary obliquities in young super-Jupiter systems," ApJL (accepted; doi:10.3847/2041-8213/ae1f0e; arXiv:2511.04091), Fig. 6
+- **License:** arXiv non-exclusive distribution license; single cited figure, fair use per course policy
+- **Shows:** a Bayes factor of 15 from four systems, built as a product of per-system factors (Day 13 aside)
+
+## faculty_jiayin_dong.jpg
+- **Title:** portrait of Jiayin Dong, Assistant Professor of Astronomy, University of Illinois (cropped and downscaled to 600 px from the 3000×2000 original)
+- **Source page:** https://astro.illinois.edu/news/2025-08-26/coming-home-jiayin-dong-joins-illinois-astronomy-faculty
+- **File downloaded:** https://astro.illinois.edu/sites/default/files/2025-08/Dong_Jiayin.jpg, 2026-10-06
+- **Credit:** Illinois Department of Astronomy (news story by Jake Keister, Aug 26, 2025)
+- **License:** university news photo of a UIUC faculty member, used with credit in a UIUC course (same basis as the colloquium speaker photos)
+- **Use:** Day 13 Poon et al. aside: the UIUC co-author (paper affiliation: Department of Astronomy, University of Illinois)
