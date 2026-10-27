@@ -1,0 +1,53 @@
+# Source: Gravitational Wave Open Science Center (GWOSC), GWTC-3-confident event list
+# URLs: https://gwosc.org/eventapi/csv/GWTC-3-confident/ (this file's parent) and https://gwosc.org/eventapi/json/GWTC-3-confident/ ; fetched 2026-10-25
+# Catalog paper: Abbott et al. (LVK) 2023, PRX 13, 041039, "GWTC-3: Compact Binary Coalescences Observed by LIGO and Virgo during the Second Part of the Third Observing Run"
+# Selection: all 35 GWTC-3-confident events, keeping the 32 with both source-frame component masses > 3 Msun (BBH); dropped GW191219_163120 (m2=1.17), GW200115_042309 (m2=1.44), GW200210_092254 (m2=2.83)
+# Values are the GWOSC-tabulated medians with the lower/upper bounds of the 90% credible interval (GWOSC convention: *_lower is negative, *_upper positive; both stored here as positive half-widths)
+# Licence (https://gwosc.org/about/ and https://gwosc.org/acknowledgement/, fetched 2026-10-25): "Data from this web site are licensed under a Creative Commons Attribution 4.0 International License."
+#   Requested acknowledgment: "This research has made use of data or software obtained from the Gravitational Wave Open Science Center (gwosc.org), a service of the LIGO Scientific Collaboration, the Virgo Collaboration, and KAGRA."
+#   and cite R. Abbott et al., "Open data from the third observing run of LIGO, Virgo, KAGRA and GEO", ApJS 267, 29 (2023)
+# Columns:
+#   event                : GWTC-3 common name
+#   version              : GWOSC parameter-set version
+#   chirp_mass_source    : source-frame chirp mass, Msun (median)
+#   chirp_mass_source_err_lo, _err_hi : 90% CI half-widths below/above the median, Msun
+#   total_mass_source    : source-frame total mass, Msun (median)
+#   total_mass_source_err_lo, _err_hi : 90% CI half-widths, Msun
+#   mass_1_source, mass_2_source : source-frame primary/secondary masses, Msun (median)
+#   luminosity_distance  : Mpc (median); luminosity_distance_err_lo/_err_hi : 90% CI half-widths, Mpc
+#   redshift             : median source redshift
+#   network_snr          : network matched-filter SNR (median)
+#   far_per_yr           : false alarm rate, yr^-1
+event,version,chirp_mass_source,chirp_mass_source_err_lo,chirp_mass_source_err_hi,total_mass_source,total_mass_source_err_lo,total_mass_source_err_hi,mass_1_source,mass_2_source,luminosity_distance,luminosity_distance_err_lo,luminosity_distance_err_hi,redshift,network_snr,far_per_yr
+GW191103_012549,1,8.34,0.57,0.66,20.0,1.8,3.7,11.8,7.9,990.0,470.0,500.0,0.2,8.9,0.46
+GW191105_143521,1,7.82,0.45,0.61,18.5,1.3,2.1,10.7,7.7,1150.0,480.0,430.0,0.23,9.7,0.012
+GW191109_010717,1,47.5,7.5,9.6,112.0,16.0,20.0,65.0,47.0,1290.0,650.0,1130.0,0.25,17.3,0.00018
+GW191113_071753,1,10.7,1.0,1.1,34.5,9.8,10.5,29.0,5.9,1370.0,620.0,1150.0,0.26,7.9,26.0
+GW191126_115259,1,8.65,0.71,0.95,20.7,2.0,3.4,12.1,8.3,1620.0,740.0,740.0,0.3,8.3,3.2
+GW191127_050227,1,29.9,9.1,11.7,80.0,22.0,39.0,53.0,24.0,3400.0,1900.0,3100.0,0.57,9.2,0.25
+GW191129_134029,1,7.31,0.28,0.43,17.5,1.2,2.4,10.7,6.7,790.0,330.0,260.0,0.16,13.1,1e-05
+GW191204_110529,1,19.8,3.2,3.6,47.1,7.8,9.1,27.3,19.2,1900.0,1100.0,1700.0,0.34,8.9,3.3
+GW191204_171526,1,8.56,0.28,0.41,20.19,0.95,1.64,11.7,8.4,640.0,260.0,200.0,0.13,17.4,1e-05
+GW191215_223052,1,18.4,1.7,2.2,43.3,4.3,5.3,24.9,18.1,1930.0,860.0,890.0,0.35,11.2,1e-05
+GW191216_213338,1,8.33,0.19,0.22,19.8,0.93,2.7,12.1,7.7,340.0,130.0,120.0,0.07,18.6,1e-05
+GW191222_033537,1,33.8,5.0,7.1,79.0,11.0,16.0,45.1,34.7,3000.0,1700.0,1700.0,0.51,12.5,1e-05
+GW191230_180458,1,36.5,5.6,8.2,86.0,12.0,19.0,49.4,37.0,4300.0,1900.0,2100.0,0.69,10.4,0.05
+GW200112_155838,1,27.4,2.1,2.6,63.9,4.6,5.7,35.6,28.3,1250.0,460.0,430.0,0.24,19.8,1e-05
+GW200128_022011,1,32.0,5.5,7.5,75.0,12.0,17.0,42.2,32.6,3400.0,1800.0,2100.0,0.56,10.6,0.0043
+GW200129_065458,1,27.2,2.3,2.1,63.3,3.4,4.5,34.5,29.0,890.0,370.0,260.0,0.18,26.8,1e-05
+GW200202_154313,1,7.49,0.2,0.24,17.58,0.67,1.78,10.1,7.3,410.0,160.0,150.0,0.09,10.8,1e-05
+GW200208_130117,1,27.7,3.1,3.7,65.3,6.8,8.1,37.7,27.4,2230.0,850.0,1020.0,0.4,10.8,0.00031
+GW200208_222617,1,19.8,5.2,10.5,63.0,26.0,100.0,51.0,12.3,4100.0,2000.0,4400.0,0.66,7.4,4.8
+GW200209_085452,1,26.7,4.2,6.0,62.6,9.4,13.9,35.6,27.1,3400.0,1800.0,1900.0,0.57,9.6,0.046
+GW200216_220804,1,32.9,8.5,9.3,81.0,14.0,20.0,51.0,30.0,3800.0,2000.0,3000.0,0.63,8.1,0.35
+GW200219_094415,1,27.6,3.8,5.6,65.0,8.2,12.6,37.5,27.9,3400.0,1500.0,1700.0,0.57,10.7,0.00099
+GW200220_061928,1,62.0,15.0,23.0,148.0,33.0,55.0,87.0,61.0,6000.0,3100.0,4800.0,0.9,7.2,6.8
+GW200220_124850,1,28.2,5.1,7.3,67.0,12.0,17.0,38.9,27.9,4000.0,2200.0,2800.0,0.66,8.5,30.0
+GW200224_222234,1,31.1,2.7,3.3,72.3,5.3,7.2,40.0,32.7,1710.0,650.0,500.0,0.32,20.0,1e-05
+GW200225_060421,1,14.2,1.4,1.5,33.5,3.0,3.6,19.3,14.0,1150.0,530.0,510.0,0.22,12.5,1.1e-05
+GW200302_015811,1,23.4,3.0,4.7,57.8,6.9,9.6,37.8,20.0,1480.0,700.0,1020.0,0.28,10.8,0.11
+GW200306_093714,1,17.5,3.0,3.5,43.9,7.5,11.8,28.3,14.8,2100.0,1100.0,1700.0,0.38,7.8,24.0
+GW200308_173609,1,34.0,18.0,44.0,92.0,48.0,169.0,60.0,24.0,7100.0,4400.0,13900.0,1.04,4.7,2.4
+GW200311_115853,1,26.6,2.0,2.4,61.9,4.2,5.3,34.2,27.7,1170.0,400.0,280.0,0.23,17.8,1e-05
+GW200316_215756,1,8.75,0.55,0.62,21.2,2.0,7.2,13.1,7.8,1120.0,440.0,480.0,0.22,10.3,1e-05
+GW200322_091133,1,15.0,4.0,29.5,50.0,22.0,132.0,38.0,11.3,3500.0,2200.0,12500.0,0.59,4.5,140.0
