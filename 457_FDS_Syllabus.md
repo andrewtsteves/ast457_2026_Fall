@@ -347,7 +347,7 @@ substitute or held on Zoom; watch your email for the arrangements each week.
   on Thu Oct 22** (Bayes and MCMC, Days 12–14).
 - **Oct 27, 29** — Probabilistic Graphical Models (PGMs) & hierarchical Bayes
   (readings from Hilbe, de Souza & Ishida)
-- **Nov 3, 5** *(travel; on Zoom, the TA proctors Quiz 4 on Tue)* — The ABCs of not having a likelihood function: ABC and
+- **Nov 3, 5** *(travel; Tue on Zoom; Thu no lecture, the TA proctors Quiz 4, 40 min)* — The ABCs of not having a likelihood function: ABC and
   simulation-based inference (readings from Hilbe, de Souza & Ishida)
 - **Nov 10, 12** — Machine learning: tree methods, supervised classification,
   outliers, imbalanced & missing data; unsupervised clustering, density

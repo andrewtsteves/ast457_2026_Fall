@@ -5,7 +5,7 @@ lab notebook header are authoritative when they disagree with this file.** Labs 
 Thursday and due the following Wednesday by Noon, as a pull request from your fork into
 `submissions/<netid>/`. You may drop one lab and one quiz.
 
-Last updated: 2026-09-24.
+Last updated: 2026-11-03.
 
 **Before class Thu Sep 24 (one time):** `conda activate astr457`, then `conda install -c conda-forge "ipykernel=6.31"`, then restart Jupyter. See `INSTALL.txt`.
 
@@ -37,7 +37,7 @@ Short, written, closed-everything, at the start of class, roughly every other we
 | 1 | Tue Sep 8 | done; TA-proctored (GN traveling). +5 extra credit for El-Badry colloquium notes, due Noon Tue Sep 15 |
 | 2 | Tue Sep 22 | done; Days 5-8 (estimators, Cramér-Rao, MLE, χ², model comparison) |
 | 3 | Thu Oct 22 | start of class; after the midterm; Bayes and MCMC (Days 12-14) |
-| 4 | Tue Nov 3 | TA-proctored (GN on Zoom) |
+| 4 | Thu Nov 5 | 40 min, 20 pts; TA-proctored; no lecture that day (moved from Tue Nov 3) |
 | 5 | Thu Nov 12 (tentative) | |
 | 6 | Tue Dec 1 (tentative) | |
 
