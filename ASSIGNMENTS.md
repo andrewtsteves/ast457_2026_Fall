@@ -5,7 +5,7 @@ lab notebook header are authoritative when they disagree with this file.** Labs 
 Thursday and due the following Wednesday by Noon, as a pull request from your fork into
 `submissions/<netid>/`. You may drop one lab and one quiz.
 
-Last updated: 2026-11-03.
+Last updated: 2026-11-10.
 
 **Before class Thu Sep 24 (one time):** `conda activate astr457`, then `conda install -c conda-forge "ipykernel=6.31"`, then restart Jupyter. See `INSTALL.txt`.
 
@@ -22,7 +22,7 @@ Last updated: 2026-11-03.
 | — | no lab the week of Oct 8 (midterm) | | | |
 | 07 | Time series and Gaussian-process regression | Thu Oct 22 | Wed Oct 28, Noon | |
 | 08 | Hierarchical Bayes and probabilistic graphical models | Thu Oct 29 | Wed Nov 4 (tentative) | |
-| 09 | ABC and simulation-based inference | Thu Nov 5 | Wed Nov 11 (tentative) | |
+| 09 | ABC on a contaminated supernova Hubble diagram | Tue Nov 10 | **Tue Nov 17** by Noon | simulation-based inference with neural networks comes after the neural-network lectures |
 | 10 | Machine-learning classification and imbalance | Thu Nov 12 | Wed Nov 18 (tentative) | |
 | 11 | Neural networks to foundation-model embeddings | Thu Nov 19 | **Wed Dec 2** (fall-break exception) | |
 
@@ -38,7 +38,7 @@ Short, written, closed-everything, at the start of class, roughly every other we
 | 2 | Tue Sep 22 | done; Days 5-8 (estimators, Cramér-Rao, MLE, χ², model comparison) |
 | 3 | Thu Oct 22 | start of class; after the midterm; Bayes and MCMC (Days 12-14) |
 | 4 | Thu Nov 5 | 40 min, 20 pts; TA-proctored; no lecture that day (moved from Tue Nov 3) |
-| 5 | Thu Nov 12 (tentative) | |
+| 5 | Thu Nov 12 | start of class; ABC (Nov 3) and the machine-learning introduction (Nov 10) |
 | 6 | Tue Dec 1 (tentative) | |
 
 ## Exams and capstone
