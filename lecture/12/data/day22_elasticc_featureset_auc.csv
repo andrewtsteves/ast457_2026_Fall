@@ -1,0 +1,11 @@
+set,rare,auc
+"84 recomputed, >=8 in r and i",SLSN,0.874
+"84 recomputed, >=8 in r and i",PISN,0.974
+"84 recomputed, >=5 in r and i",SLSN,0.928
+"84 recomputed, >=5 in r and i",PISN,0.988
+"10 retrospective, >=2 det",KN,0.993
+"10 retrospective, >=2 det",SLSN,0.874
+"10 retrospective, >=2 det",PISN,0.966
+"10 real-time (3 d), >=2 det",KN,0.859
+"10 real-time (3 d), >=2 det",SLSN,0.632
+"10 real-time (3 d), >=2 det",PISN,0.787
