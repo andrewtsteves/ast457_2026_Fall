@@ -6,8 +6,7 @@ TR, 1230-1350, Astronomy 134
 
 This course has been redesigned for the agentic AI era: AI tools are allowed
 and documented on all labs, every student gets their own datasets with truth
-held by the instructor, and grades come from verification, calibration, and
-your ability to defend your own work. Read the syllabus PDF, especially
+held by the instructor, and grades come from verification and calibration. Read the syllabus PDF, especially
 "Working with AI: The Ground Rules", before doing anything else.
 
 Instructions

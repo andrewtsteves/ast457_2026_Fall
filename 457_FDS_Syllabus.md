@@ -110,9 +110,6 @@ The rules:
   checking the assumptions and catching the errors. Turning in unverified AI output is turning in
   someone else's work with your name on it. As you'll discover in this course,
   unverified AI output is frequently, confidently wrong.
-- **You must be able to defend it.** Any submission can be selected for a
-  short oral defense: you and your notebook, a few minutes of questions about why you made the choices you made. If you cannot explain your own submission, it isn't
-  your submission, and it will be graded accordingly.
 - **The line.** Discussing problems with classmates: encouraged. Using AI and
   documenting it: encouraged. Sharing solutions with each other: cheating.
   Misrepresenting AI work as verified, or fabricating your AI-use appendix:
@@ -120,7 +117,7 @@ The rules:
 
 ## Grading
 
-Your grade combines two tracks. **Track A** (quizzes, oral components) is done
+Your grade combines two tracks. **Track A** (quizzes) is done
 live and AI-free, and certifies the statistical reasoning you carry in your
 own head. **Track B** (labs, take-home exam components, the capstone) is
 open-book, open-AI, and documented, and certifies that you can do, and stand
@@ -198,10 +195,6 @@ Wednesday.
 
 Quizzes (roughly six, equally weighted) are brief written checks (10–15 minutes) at the start of class, closed-everything, roughly every other week, covering the reasoning behind what we've done: reading a corner plot, or saying why an estimator misbehaves. No computation, no AI, no notes: these certify what you carry in your own head.
 
-Oral defenses are short (5–10 minute) scheduled conversations with me or the
-TA about work you submitted. Each of you defends one lab or the midterm during the semester, drawn at random; capstone questions come in the lightning-talk Q&A. The questions are about your
-choices and your checks. They are a rehearsal for every seminar, group meeting, and thesis defense you will ever attend.
-
 The midterm and final will be posted online, and will be
 due by Noon six days later (for the final, Dec 15, during finals week). If you have a
 conflict with the exam dates, please contact me as soon as possible. Make up
@@ -231,7 +224,7 @@ late until a "F" grade is achieved, unless you have a documented medical
 excuse or you have notified me of other extenuating circumstances. Remember
 that you may drop ONE lab and one quiz from your total, for whatever reason,
 no questions asked. Missed quizzes cannot be made up (that's what the drop is
-for); missed oral defenses can be rescheduled once with advance notice. Per
+for). Per
 the university's [Student Code](https://studentcode.illinois.edu/), I will
 reasonably accommodate class absences; if I ask for an absence letter, you can
 obtain one from the Connie Frank CARE Center.
@@ -257,8 +250,8 @@ S. Oak St., Champaign, IL 61820; 217-333-1970;
 
 Plagiarism: **Don't.** Copying a classmate's solution is cheating. Using AI is allowed; lying about it is not.
 Fabricating your AI-use appendix, presenting unverified machine output as your
-own verified analysis, or having someone (or something) else sit your quiz or
-defense are all academic integrity violations, and will result at least in an
+own verified analysis, or having someone (or something) else sit your quiz
+are all academic integrity violations, and will result at least in an
 "F" for that work, possibly an "F" for the course, and referral to the Senate
 Committee for Student Discipline. Read the University of Illinois' policy on
 [plagiarism](https://studentcode.illinois.edu/article1/part4/1-402/).

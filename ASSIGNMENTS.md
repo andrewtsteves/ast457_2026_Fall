@@ -5,7 +5,7 @@ lab notebook header are authoritative when they disagree with this file.** Labs 
 Thursday and due the following Wednesday by Noon, as a pull request from your fork into
 `submissions/<netid>/`. You may drop one lab and one quiz.
 
-Last updated: 2026-11-11.
+Last updated: 2026-11-19.
 
 **Before class Thu Sep 24 (one time):** `conda activate astr457`, then `conda install -c conda-forge "ipykernel=6.31"`, then restart Jupyter. See `INSTALL.txt`.
 
@@ -26,7 +26,7 @@ Last updated: 2026-11-11.
 | 10 | Machine-learning classification and imbalance | Thu Nov 19 | **Wed Dec 2** (fall-break exception) | moved from Nov 12 so it does not overlap Lab 09 |
 | 11 | Neural networks to foundation-model embeddings | TBD | TBD | may not run |
 
-Lab defenses: one per student over the semester (a lab or the midterm), drawn at random. No separate midterm or final defenses. You will be told in class.
+Lab defenses are retired (Nov 16) and do not count toward your grade.
 
 ## Quizzes
 
@@ -56,6 +56,7 @@ Short, written, closed-everything, at the start of class, roughly every other we
 
 ## Other dates
 
+- Tue Nov 17: no class (Zoom from the road could not run). Its neural-network lecture moved to Thu Nov 19, which ends at 13:20.
 - Fall break Nov 21-29: no class Nov 24 and 26, nothing due over break.
 - Last day of instruction: Wed Dec 9.
 - Colloquia are Tuesdays 3:45 pm in this classroom (Astronomy 134); the ones tied to labs are
